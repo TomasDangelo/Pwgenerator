@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+  background-color: #ffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.wrapper {
+  height: 120vh;
+  max-width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #ffff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper-box {
+  padding: 30px;
+  }
+
+.word-crieteria__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+
+}
+
+.generate-button, .btnLanguage {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgba(48, 65, 192, 0.834);
+  font-size: 16px;
+  border: none;
+  font-weight: bolder;
+}
+
+.generateTitle{
+  font-weight: bolder;
+  color: rgba(48, 65, 192, 0.834);
+  text-align: center;
+  font-family: 'Roboto Condensed', 'Helvetica
+}
+
+.password-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(67, 66, 66);
+  width: 40vw;
+  border: none;
+}
+
+
+.password-box > input[type='text'] {
+  width: 70%;
+  margin-right: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+  background-color: inherit;
+  letter-spacing: 2px;
+  border: none;
+}
+
+button.copy-button {
+  display: block;
+  width: 25%;
+  cursor: pointer;
+  border: 0px;
+  font-size: 14px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: rgba(48, 65, 192, 0.834);
+}
+
+.word-crieteria__box input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+}
+
+.word-crieteria__box label {
+  font-weight: 500;
+}
+
+input[type='number']{
+  width: 60px;
+  height: 20px;
+  color: #000000;
+}
+
+
+.imgHome{
+  width: 300px;
+  height: 300px;
+}
+
+.divImg{
+  align-self: center;
+  margin-top: 5rem;
+}
+
+.reminder{
+  width: 100%;
+}
+
+@media (max-width: 768px){
+  .password-box{
+    width: 280px;
+  }
+}
